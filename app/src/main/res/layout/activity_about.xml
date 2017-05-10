@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.zxdmjr.gtdsystem.Activitys.AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivDeveloper"
+            android:src="@drawable/ic_dev"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dev"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textColorLink="@color/white"
+            android:gravity="center"
+            android:autoLink="email"
+            android:id="@+id/tvDeveloperEmail"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dev"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textColorLink="@color/white"
+            android:gravity="center"
+            android:autoLink="web"
+            android:id="@+id/tvDeveloperFb"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
